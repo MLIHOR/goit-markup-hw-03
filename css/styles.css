@@ -129,6 +129,8 @@ body {
 
 .section-one {
   background: var(--navyblue);
+  padding: 188px 0;
+
 }
 
 .section-one-motto {
@@ -138,6 +140,9 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .section-one-button {
@@ -149,6 +154,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  border: none;
+  
 }
 
 .section-one-button:hover {
@@ -159,6 +169,12 @@ body {
   background: var(--ocean);
 }
 
+.section-one-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
 /* ----------------------------------------------------INDEX SECTION TWO----------------------------------------------------------- */
 
 .section-two-features {
@@ -167,12 +183,41 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+  
 }
 
 .section-two-paragraf {
   color: var(--slate);
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.section-two{
+  padding: 120px 0;
+  
+}
+.section-two-list{
+  display: flex;
+  align-items:center;
+  gap: 24px;
+}
+
+.section-two-item{
+  width: calc((100% - 72px) / 4);
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* ----------------------------------------------------INDEX SECTION THREE---------------------------------------------------------- */
@@ -186,12 +231,33 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
+  text-align: center;
+  margin-bottom: 72px;
 }
 
+.section-three{
+  padding-bottom: 120px;
+}
+.section-three-container{
+  margin: 0 auto;
+  align-content: center;
+}
+
+.section-three-list{
+  display: flex;
+  gap: 24px;
+}
+
+.section-three-item{
+  width: calc((100%-2 * 24px) / 3);
+}
 /* -------------------------------------------------------INDEX SECTION FOUR-------------------------------------------------------- */
 
 .section-four {
   background: var(--cloud);
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .section-four-heading {
@@ -212,6 +278,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .section-four-position {
@@ -223,8 +290,20 @@ body {
 
 .section-four-item {
   background: var(--white);
+  width: calc((100%-3 * 24px) / 4);
+  border-radius: 0 0 4px 4px;
 }
 
+
+.team-container{
+  padding: 32px 0px;
+}
+
+.section-four-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 /* ------------------------------------------------------PORTFOLIO PAGE------------------------------------------------------------ */
 
 /* -------------------------------------------------------PORTFOLIO SECTION ONE BUTTONS----------------------------------------------------- */
