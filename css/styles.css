@@ -264,6 +264,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .section-four-person {
@@ -335,6 +336,10 @@ img {
   margin-bottom: 72px;
 }
 
+.sub-menu{
+
+}
+
 /* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
 
 .project-list-heading {
@@ -389,4 +394,8 @@ img {
   width: 296px;
   height: 112px;
   margin-left: 156px;
+}
+.f-logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
