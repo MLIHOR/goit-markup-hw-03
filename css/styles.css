@@ -7,7 +7,7 @@
   --slate: #434455;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
-  --cornflower: #E7E9FC;
+  --cornflower: #e7e9fc;
 }
 
 *,
@@ -38,41 +38,35 @@ body {
 }
 /* ---------------------------------------------------------HEADER----------------------------------------------------------------- */
 .header {
-    border-bottom: 1px solid var(--cornflower);
-  }
-  .h-logo {
-    margin-right: 76px;
-    margin-left: 156px;
-  }
+  border-bottom: 1px solid var(--cornflower);
+}
+.h-logo {
+  margin-right: 76px;
+  margin-left: 156px;
+}
 
-  .header-container {
-    display: flex;
-    align-items: center;
-    height: 72px;
-  }
+.header-container {
+  display: flex;
+  align-items: center;
+  height: 72px;
+}
 .header-menu {
-    display: flex;
-    margin-right: auto;
-    align-items: center;
-  }
- .nav-list {
-    display: flex;
-    gap: 40px;
-  }
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
 
-  .header-list-item:last-child {
-    margin-right: 0;
-  }
-  .address-list {
-    display: flex;
-    gap: 40px;
-  }
-
-
-
-
-
-
+.header-list-item:last-child {
+  margin-right: 0;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 
 .logo-link {
   color: var(--iris);
@@ -130,7 +124,6 @@ body {
 .section-one {
   background: var(--navyblue);
   padding: 188px 0;
-
 }
 
 .section-one-motto {
@@ -158,7 +151,6 @@ body {
   height: 56px;
   border-radius: 4px;
   border: none;
-  
 }
 
 .section-one-button:hover {
@@ -169,7 +161,7 @@ body {
   background: var(--ocean);
 }
 
-.section-one-container{
+.section-one-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -184,7 +176,6 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  
 }
 
 .section-two-paragraf {
@@ -193,21 +184,20 @@ body {
   letter-spacing: 0.02em;
 }
 
-.section-two{
+.section-two {
   padding: 120px 0;
-  
 }
-.section-two-list{
+.section-two-list {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 24px;
 }
 
-.section-two-item{
+.section-two-item {
   width: calc((100% - 72px) / 4);
 }
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -236,21 +226,20 @@ body {
   margin-bottom: 72px;
 }
 
-.section-three{
+.section-three {
   padding-bottom: 120px;
 }
-.section-three-container{
+.section-three-container {
   margin: 0 auto;
   align-content: center;
 }
 
-.section-three-list{
+.section-three-list {
   display: flex;
   gap: 24px;
 }
-
-.section-three-item{
-  width: calc((100%-2 * 24px) / 3);
+.section-three-item {
+  width: calc((100% - 2 * 24px) / 3);
 }
 /* -------------------------------------------------------INDEX SECTION FOUR-------------------------------------------------------- */
 
@@ -290,16 +279,15 @@ body {
 
 .section-four-item {
   background: var(--white);
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
 }
 
-
-.team-container{
+.team-container {
   padding: 32px 0px;
 }
 
-.section-four-list{
+.section-four-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -318,26 +306,38 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   cursor: pointer;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+  padding: 12px 24px;
 }
 
-.sub-menu-item:hover {
-  background: var(--ocean);
-  color: var(--white);
-}
+.sub-menu-item:hover,
 .sub-menu-item:focus {
   background: var(--ocean);
   color: var(--white);
+  border: 1px solid transparent;
+}
+
+.project-list {
+  padding: 96px 0 120px 0;
+}
+
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 /* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
 
 .project-list-heading {
   color: var(--navyblue);
-
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .project-list-paragraf {
@@ -346,28 +346,41 @@ body {
   letter-spacing: 0.02em;
 }
 
+.portfolio-projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+}
+.project-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.p-projects-container {
+  border: 1px solid var(--cornflower);
+  padding: 32px 16px;
+  border-top: none;
+}
+
 /* ---------------------------------------------------------FOOTER----------------------------------------------------------------- */
 .footer {
   background: var(--navyblue);
   padding: 100px 0;
-  
 }
 .second-logo-footer {
   color: var(--cloud);
   display: inline-block;
-    margin-bottom: 16px;
-  
+  margin-bottom: 16px;
 }
 
 .footer-descr {
   color: var(--cloud);
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-
 }
 
-.footer-container{
-    width: 296px;
-    height: 112px;
-    margin-left: 156px;
+.footer-container {
+  width: 296px;
+  height: 112px;
+  margin-left: 156px;
 }
