@@ -23,6 +23,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .list {
   list-style: none;
 }
@@ -33,7 +38,7 @@ body {
 
 .container {
   max-width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 /* ---------------------------------------------------------HEADER----------------------------------------------------------------- */
@@ -93,6 +98,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .header-list-link:hover {
   color: var(--ocean);
