@@ -346,10 +346,6 @@ img {
   margin-bottom: 72px;
 }
 
-.sub-menu{
-
-}
-
 /* -------------------------------------------------------PORTFOLIO SECTION ONE LIST----------------------------------------------- */
 
 .project-list-heading {
@@ -390,8 +386,6 @@ img {
 }
 .second-logo-footer {
   color: var(--cloud);
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-descr {
@@ -403,15 +397,8 @@ img {
   max-width: 264px;
 }
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-}
+
 .f-logo{
   display: inline-block;
   margin-bottom: 16px;
-}
-
-.pf-container{
-  margin-right: 120px;
 }
